@@ -1,0 +1,187 @@
+/* map making */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 448px;
+    height: 496px;
+    border: solid black;
+}
+.grid div {
+    width: 16px;
+    height: 16px;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+.border{
+    background: rgb(27, 30, 219);
+    /*background-image: url("straightMiddle.png");*/
+    /*need to make multiple interlinking middles*/
+}
+.small-dot{
+    background-image: url('photos/small-dot.png')
+}
+.big-dot{
+    background-image:url('photos/big-dot.png');
+}
+.ghost-lair-line{
+    background-color: pink; /*make a solid line*/
+    border-bottom: 6px solid black;
+    border-top: 6px solid black;
+    box-sizing: border-box;
+}
+.empty{
+    background-color: black;
+}
+.double-border-left{
+    background-image: url('photos/double flat left.png');
+}
+.double-border-top{
+    background-image: url('photos/double flat top.png');
+}
+.double-border-bottom{
+    background-image: url('photos/double flat bottom.png');
+}
+.double-border-right{
+    background-image: url('photos/double flat right.png');
+}
+.double-border-top-right{
+    background-image: url('photos/double corner top right.png');
+}
+.double-border-top-left{
+    background-image: url('photos/double corner top left.png');
+}
+.double-border-bottom-right{
+    background-image: url('photos/double corner bottom right.png');
+}
+.double-border-bottom-left{
+    background-image: url('photos/double corner bottom left.png');
+}
+.elongtl{
+    background-image: url('photos/elongated top left.png');
+}
+.elongbl{
+    background-image: url('photos/elongated bottom left.png');
+}
+.elongtr{
+    background-image: url('photos/elongated top right.png');
+}
+.elongbr{
+    background-image: url('photos/elongated bottom right.png');
+}
+.sb{
+    background-image: url('photos/Single-bottom.png');
+}
+.sr{
+    background-image: url('photos/Single-right.png');
+}
+.sl{
+    background-image: url('photos/Single-left.png');
+}
+.st{
+    background-image: url('photos/Single-top.png');
+}
+.ltl{
+    background-image: url('photos/long-top-left.png');
+}
+.ltr{
+    background-image: url('photos/long-top-right.png');
+}
+.lbl{
+    background-image: url('photos/long-bottom-left.png');
+}
+.lbr{
+    background-image: url('photos/long-bottom-right.png');
+}
+.tl{
+    background-image: url('photos/small-top-left.png');
+}
+.tr{
+    background-image: url('photos/small-top-right.png');
+}
+.bl{
+    background-image: url('photos/small-bottom-left.png');
+}
+.br{
+    background-image: url('photos/small-bottom-right.png');
+}
+.left{
+    background-image: url('photos/left.png');
+}
+.right{
+    background-image: url('photos/right.png');
+}
+.top{
+    background-image: url('photos/top.png');
+}
+.bottom{
+    background-image: url('photos/bottom.png');
+}
+.bottomright{
+    background-image: url('photos/bottomright.png');
+}
+.topright{
+    background-image: url('photos/topright.png');
+}
+.something{
+    background-image: url('photos/something.png');
+}
+.somethingv{
+    background-image: url('photos/somethingOnSide.png');
+}
+.somethingtl{
+    background-image: url('photos/somethingtopleft.png');
+}
+.somethingtr{
+    background-image: url('photos/somethingtopright.png');
+}
+.somethingbl{
+    background-image: url('photos/somethingbottomleft.png');
+}
+.somethingbr{
+    background-image: url('photos/somethingbottomright.png');
+}
+.lside{
+    background-image: url('photos/leftside.png');
+}
+.rside{
+    background-image: url('photos/rightside.png');
+}
+.invisible{
+    background-color: rgb(0, 0, 0);
+}
+.scared{
+    background-image: url('photos/scared.png');
+}
+
+
+/* ------------------------------------------------------------------------------*/
+
+
+/*charaters*/
+
+.packup{
+    background-image: url("photos/Pacman-up.png");
+}
+.packdown{
+    background-image: url("photos/Pacman-down.png");
+}
+.packright{
+    background-image: url("photos/Pacman-right.png");
+}
+.pack{
+    background-image: url("photos/Pacman.png");
+}
+.red{
+    background-image: url("photos/blinky.png");
+}
+.blue{
+    background-image: url("photos/clyde.png");
+}
+.yellow{
+    background-image: url("photos/inky.png");
+}
+.pink{
+    background-image: url("photos/pinky.png");
+}

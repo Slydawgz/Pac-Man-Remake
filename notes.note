@@ -1,0 +1,5 @@
+if((redNx-pacX)>(redX-pacX) && (blocks[redcurrent + 1].classList.contains('empty')||blocks[redcurrent +1].classList.contains('small-dot')||blocks[redcurrent + 1].classList.contains('big-dot'))){
+
+}else if((pacX-redNx)>(pacX-redX) && (blocks[redcurrent - 1].classList.contains('empty')||blocks[redcurrent -1].classList.contains('small-dot')||blocks[redcurrent - 1].classList.contains('big-dot'))){
+
+}

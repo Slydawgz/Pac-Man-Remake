@@ -1,0 +1,30 @@
+body{
+    background-image: url('photos/backgrounbd.png'); /*adds in that amazing custom background*/
+    color:white;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.column.instructions{
+    width: 20%;
+}
+.column.display{/*cant get it to be centered :/ */
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.column.leaderboard{
+    width: 20%;
+    
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen{
+    .instructions, .display, .leaderboard {
+      width: 100%;
+    }
+  }
